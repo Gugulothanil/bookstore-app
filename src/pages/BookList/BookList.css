@@ -1,0 +1,22 @@
+.book-list-page {
+    padding: 20px;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .book-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .loader, .error {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+  }
